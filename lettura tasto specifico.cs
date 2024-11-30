@@ -1,4 +1,5 @@
 var contatore = 0;
+string input = "";
 
 while (true)
 {
@@ -11,11 +12,11 @@ while (true)
     {
         break;
     }
-        
 
 
+    input += tasto.KeyChar;
 
 }
 
-Console.WriteLine($"hai digitato A ben {contatore}");
+Console.WriteLine($"hai digitato A ben {contatore} volte \n le lettere digitate sono {input}");
 Console.ReadKey();
